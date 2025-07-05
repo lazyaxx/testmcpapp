@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         generativeModel = GenerativeModel(
             modelName = "gemini-2.5-flash",
-            apiKey = "AIzaSyAL-JzJ7kmh7MePAHg2r_0s2DCgftfe5iA"
+            apiKey = "GOOGLE_API_KEY"
         )
 
         buttonSend.setOnClickListener {
